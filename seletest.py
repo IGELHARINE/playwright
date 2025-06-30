@@ -2,14 +2,15 @@ import subprocess
 import random
 from playwright.sync_api import sync_playwright
 
-# 김도성 020708
+# 김도성 020708 - 
 
 def random_delay():
     delay = random.uniform(0.3, 0.8)
     return delay*100
 
 insta_id = "---"
-insta_pw = "---"
+insta_pw = "helllo"
+
 
 follower_list = []
 follow_list = []
